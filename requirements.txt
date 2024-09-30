@@ -1,0 +1,29 @@
+fastapi[standard]
+
+# auth
+itsdangerous
+passlib[bcrypt] 
+python-jose[cryptography]
+
+# data validation
+pydantic
+pydantic-settings
+
+# database
+sqlalchemy
+psycopg2-binary
+
+#email
+fastapi-mail
+
+# templating syntax
+jinja2
+
+#ASGI server
+gunicorn
+
+#AWS SDK for Python
+boto3
+
+# HTTP library 
+requests
